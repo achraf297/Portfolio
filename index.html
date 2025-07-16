@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achraf EL-BIYANI - Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <!-- Profile Section -->
+        <section class="profile-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <img src="prfl.jpeg" alt="Achraf EL-BIYANI" class="profile-img">
+                        <h1 class="profile-name">Achraf EL-BIYANI</h1>
+                        <div class="profile-location">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>Khouribga, Morocco</span>
+                        </div>
+                        
+                        <div class="social-media">
+                            <a href="#" class="social-icon" aria-label="GitHub">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                            <a href="#" class="social-icon" aria-label="LinkedIn">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                            <a href="https://www.instagram.com/achraf__527" class="social-icon" aria-label="Instagram">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </div>
+                        
+                        <div class="mb-4">
+                            <a href="#" class="request-btn">Request a website</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Divider -->
+        <section class="divider">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <div class="scroll-indicator" onclick="scrollToAbout()">
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section-title">
+                            <i class="fa-solid fa-user"></i>
+                            <span>About</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <p class="section-text">
+                            I'm a junior web developer focused on creating responsive and user-friendly websites. 
+                            I work with HTML, CSS, JavaScript, and PHP to build clean and functional web interfaces. 
+                            I care about good design, performance, and writing clear, maintainable code.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section-title">
+                            <i class="fa-solid fa-user-graduate"></i>
+                            <span>Education</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 col-md-8 col-12">
+                        <div class="education-card">
+                            <div class="d-flex align-items-center">
+                                <img class="education-img" src="767e3d68039f279077dbec648aab5590.jpg" alt="School Logo">
+                                <div class="education-content">
+                                    <div class="education-title">High School Degree</div>
+                                    <div class="education-subtitle">Phosphates High School</div>
+                                    <div class="education-subtitle">Sept 2022 - June 2023</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-8 col-12">
+                        <div class="education-card">
+                            <div class="d-flex align-items-center">
+                                <img class="education-img" src="ofppt-logo-png_seeklogo-258719.png" alt="School Logo">
+                                <div class="education-content">
+                                    <div class="education-title">TS Diploma</div>
+                                    <div class="education-subtitle">ISGI Khouribga</div>
+                                    <div class="education-subtitle">Sept 2024 - Present</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section class="section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section-title">
+                            <i class="bi bi-award-fill"></i>
+                            <span>Certifications</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 col-md-8 col-12">
+                        <div class="cert-card">
+                            <img src="freecodecamp.jpeg" alt="Responsive Web Design Certificate" class="cert-img">
+                            <div class="cert-content">
+                                <div class="cert-title">Responsive Web Design</div>
+                                <div class="cert-subtitle">FreeCodeCamp</div>
+                                <div class="cert-date">Jul 2025</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-8 col-12">
+                        <div class="cert-card">
+                            <img src="cisco.jpeg" alt="Python Essentials Certificate" class="cert-img">
+                            <div class="cert-content">
+                                <div class="cert-title">Python Essentials</div>
+                                <div class="cert-subtitle">Cisco</div>
+                                <div class="cert-date">May 2025</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section-title">
+                            <i class="fa-solid fa-folder-open"></i>
+                            <span>Projects</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 col-md-8 col-12">
+                        <div class="project-card">
+                            <div class="project-img">
+                                <img src="project1.jpg" alt="Restaurant Website" class="project-image">
+                            </div>
+                            <div class="project-header">
+                                <h3 class="project-title">Restaurant Website</h3>
+                                <div class="project-tech">
+                                    <span class="tech-badge">HTML</span>
+                                    <span class="tech-badge">CSS</span>
+                                    <span class="tech-badge">JavaScript</span>
+                                </div>
+                            </div>
+                            <p class="project-description">
+                                A responsive restaurant website with modern design, interactive menu, and reservation system.
+                            </p>
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fa-brands fa-github"></i>
+                                    Code
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fa-solid fa-external-link-alt"></i>
+                                    Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-8 col-12">
+                        <div class="project-card">
+                            <div class="project-img">
+                                <img src="j" alt="E-commerce Dashboard" class="project-image">
+                            </div>
+                            <div class="project-header">
+                                <h3 class="project-title">E-commerce Dashboard</h3>
+                                <div class="project-tech">
+                                    <span class="tech-badge">PHP</span>
+                                    <span class="tech-badge">MySQL</span>
+                                    <span class="tech-badge">Bootstrap</span>
+                                </div>
+                            </div>
+                            <p class="project-description">
+                                Admin dashboard for managing products, orders, and customers with real-time analytics.
+                            </p>
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fa-brands fa-github"></i>
+                                    Code
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fa-solid fa-external-link-alt"></i>
+                                    Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tech Stack Section -->
+        <section class="section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section-title">
+                            <i class="fa-solid fa-code"></i>
+                            <span>Tech Stack</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-10 col-md-12 col-12">
+                        <div class="tech-grid">
+                            <div class="tech-item">
+                                <i class="fa-brands fa-html5"></i>
+                                <span>HTML5</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fa-brands fa-css3-alt"></i>
+                                <span>CSS3</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fa-brands fa-js"></i>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fa-brands fa-php"></i>
+                                <span>PHP</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fa-brands fa-bootstrap"></i>
+                                <span>Bootstrap</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fa-brands fa-git-alt"></i>
+                                <span>Git</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fa-brands fa-python"></i>
+                                <span>Python</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fa-solid fa-database"></i>
+                                <span>MySQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer-section">
+            <div class="footer-content">
+                <div class="footer-bottom">
+                    <p>&copy; 2024 All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function scrollToAbout() {
+            document.querySelector('#about').scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
+    </script>
+</body>
+</html>
